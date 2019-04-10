@@ -1,7 +1,7 @@
 # droplet
-MATLAB code for microcolony droplets paper
+MATLAB code for microcolony droplets
 
-This code takes in all .czi-formatted images in a directory, and calculates the ratio of fluorescence intensity between the periphery of the microcolony object and the point of lowest intensity (PLI) of the same object.
+This code takes in all .czi-formatted images in a directory, and calculates the ratio of fluorescence intensity between the periphery of the microcolony object and the point of lowest intensity (PLI) of the same object. This code requires the user to have access to MATLAB with the image processing toolbox installed, as well as the bioformats package offered by the Open Microscopy Environment.
 
 The three functions called by peripheryScript are getMask, getPeriphery, and getCentroid.
 
